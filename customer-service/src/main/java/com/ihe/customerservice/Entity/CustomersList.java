@@ -1,4 +1,4 @@
-package com.emily.entity;
+package com.ihe.customerservice.Entity;
 
 import java.util.List;
 
@@ -12,5 +12,4 @@ import lombok.NoArgsConstructor;
 public class CustomersList {
 
 	List<Customers> customers;
-	
 }

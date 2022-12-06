@@ -1,16 +1,18 @@
 package com.ihe.customerservice.Entity;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class customerService {
+public class Customers {
 
     @Id
     private int detailId;
