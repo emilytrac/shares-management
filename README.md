@@ -1,1 +1,1 @@
-# sharesManagement
+# shares management project
