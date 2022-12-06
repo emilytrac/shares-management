@@ -1,0 +1,46 @@
+h1 {
+    color: #B470C2;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+body{
+    background-color: #F5E9F8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+figure {
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#inputButton {
+    border: solid 1px #B470C2;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background: #F5E9F8;
+    padding: 15px;
+}
+
+#inputButton:hover {
+    border: solid 1px #B470C2;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #F5E9F8;
+    background: #B470C2;
+    padding: 15px;
+}
+
+#inputBox{
+     border: solid 1px #B470C2;
+        border-radius: 5px;
+        width: 150px;
+        height: 30px;
+        color: #B470C2;
+        background:white ;
+}

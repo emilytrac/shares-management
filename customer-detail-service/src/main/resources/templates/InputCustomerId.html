@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="https://thymeleaf.org">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<link th:href="@{styles.css}" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Customer Shares Management System</title>
 </head>
 <body>
 <h1>Welcome to your shares management system</h1>
-<form action="./checkDetails" method="post">
-	Enter Customer ID : <input type="text" name="customerId"><br><br>
-	<input type="submit" value="Get Details">
-</form>
+<figure>
+    <form action="./checkDetails" method="post">
+        Enter Customer ID :
+        <br>
+        <br>
+        <input id="inputBox" type="text" name="customerId">
+        <input id="inputButton" type="submit" value="Get Details">
+    </form>
+</figure>
+
 </body>
 </html>
